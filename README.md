@@ -1,6 +1,6 @@
 ## HTML-CSS-JS-Practice
 
-#Introducciòn
+# Introducciòn
 
 Repositorìo creado dentro de la universidad Poltècnica Salesina para la clase de Programaciòn web
 
