@@ -28,6 +28,12 @@ existen calculos de altura para que la ventana solo tenga el tamaño de alura de
 
 ## JS
 
+Javascript se encuentra estructurado en 3 partes, siendo la primera las variables.
+la segunda parte las funciones para los elementos cargados desde html.
+y la tercera la carga dinámica de objetos.
+notese que durante todo el transcurso de js se usan selectores del DOM de tipo query selector, y elementos por id.
+siendo que tambien se pueden seleccionar por clase con un metodo directo
+
 
 
 
@@ -43,8 +49,7 @@ para la fluidez de aparición del formulario utilizo curvas de bezier qué dan c
 
 
 
-###pendientes
-- ventana de contacto
-- ventana de inicio
-- agregar cursos
+### pendientes
+- guardar datos de los cursos
+- cargar datos de los cursos
 - footer

@@ -14,12 +14,12 @@
             
             <ul>
                 <li>
-                    <a href="coso.com">
+                    <a id="iniciar" >
                         Inicio
                     </a>
                 </li>
                 <li>
-                    <a href="coso.com">
+                    <a id="cursos">
                         Cursos
                     </a>
                 </li>
@@ -29,61 +29,78 @@
                     </a>
                 </li>
                 <li>
-                    <a href="coso.com">
+                    <a id="contactos">
                         Contacto   <!--Datos personales-->
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
+    
     <main class="principal">
-
-        <section class="curso abierto">
-            <p class="borrar">X</p>
-            <h2 class="titulo ">Matemáticas</h2>
-            <ht></ht>
+        <section class="contenedor">
+            <section class="curso abierto">
+                <p class="borrar">X</p>
+                <h2 class="titulo ">Matemáticas</h2>
+                <ht></ht>
+                    <p class="contenido">Juan Pesantes</p>
+                    <p class="contenido">10-octubre-2024</p>
+                    <p class="contenido">120 horas</p>
+                    <p class="contenido">Curso de matemáticas nivel intermedio</p>
+                <button class="boton">Ver más</button>
+            </section>
+            <section class="curso ">
+                <p class="borrar">X</p>
+                <h2 class="titulo ">
+                    Idiomas
+                </h2>
                 <p class="contenido">Juan Pesantes</p>
-                <p class="contenido">10-octubre-2024</p>
-                <p class="contenido">120 horas</p>
-                <p class="contenido">Curso de matemáticas nivel intermedio</p>
-            <button class="boton">Ver más</button>
+                    <p class="contenido">10-octubre-2024</p>
+                    <p class="contenido">120 horas</p>
+                    <p class="contenido">Curso de matemáticas nivel intermedio</p>
+                <button class="boton">Ver más</button>
+            </section>
+            <section class="curso ">
+                <p class="borrar">X</p>
+                <h2 class="titulo ">
+                    Historia
+                </h2>
+                <p class="contenido">Juan Pesantes</p>
+                    <p class="contenido">10-octubre-2024</p>
+                    <p class="contenido">120 horas</p>
+                    <p class="contenido">Curso de matemáticas nivel intermedio</p>
+                <button class="boton">Ver más</button>
+            </section>
         </section>
-        <section class="curso ">
-            <p class="borrar">X</p>
-            <h2 class="titulo ">
-                Idiomas
-            </h2>
-               <p class="contenido">Juan Pesantes</p>
-                <p class="contenido">10-octubre-2024</p>
-                <p class="contenido">120 horas</p>
-                <p class="contenido">Curso de matemáticas nivel intermedio</p>
-            <button class="boton">Ver más</button>
-        </section>
-        <section class="curso ">
-            <p class="borrar">X</p>
-            <h2 class="titulo ">
-                Historia
-            </h2>
-               <p class="contenido">Juan Pesantes</p>
-                <p class="contenido">10-octubre-2024</p>
-                <p class="contenido">120 horas</p>
-                <p class="contenido">Curso de matemáticas nivel intermedio</p>
-            <button class="boton">Ver más</button>
-        </section>
-        <section class=" formulario expuesto"> 
+        <section class=" formulario expuesto desplegar"> 
             <form>
                 <label class="nombre">Nombre del curso</label>
-                <input  class="nombre"type="text">
+                <input  id="nombre"type="text">
                 <label class="docente">Nombre del docente</label>
-                <input class="docente" type="text">
+                <input id="docente" type="text">
                 <label class="fecha">Fecha de inicio</label>
-                <input class="fecha" type="date" class="fecha">
+                <input id="fecha" type="date" class="fecha">
                 <label class="duracion">Duración del curso  (horas) </label>
-                <input class="duracion" type="number">
+                <input id="duracion" type="number">
                 <label class="descripcion" >Descripción </label>
-                <textarea class="descripcion" type="text"></textarea>
+                <textarea id="descripcion" type="text"></textarea>
+                <button id="agregar-curso" type="button">Agregar Curso</button>
             </form>
         </section>
+        <Section class="inicio side">
+            <h2>Inicio</h2>
+            <p>
+                Página creada con el objetivo de poner a prueba los conocimientos y aprendidos para 
+                y durante la clase de programación en plataformas web dentro de la universidad 
+                politecnica Salesiana. Esta página 
+            </p>
+        </Section>
+        <Section class="contacto side">
+            <h2>Jorge Cueva</h2>
+            <p><b>Correo institucional: </b> jcuevam3@est.ups.edu.ec</p>
+            <p><b>Numero de contacto: </b> 0962637809</p>
+        </Section>
+
     </main>
     <footer id="pie">
 
