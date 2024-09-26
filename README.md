@@ -16,5 +16,35 @@ el contenido html sigue los estandares web de html:5 incluyendo las etiquetas ne
 
 ## CSS
 
+El contenido css tiene configurados distintos selectores:
+_ al inicio del documento se realiza un clear css con el selector global * 
+_ para el header  se usan los selectores de etiquetas
+_ para el main se utilizan selectores de clases
+_ para el footer se utilizan selectores de Identificadores
+
+
+las pseudoclases se utilizan en el header para las selecciones de tipo hover
+existen calculos de altura para que la ventana solo tenga el tamaño de alura del dispotivio, y no más
 
 ## JS
+
+
+
+
+
+
+## Extras
+Además del contenido de pedido creé otra sección en la que se puede apreciar el formulario para poder agregar cursos, con el uso de la etiqueta a de agregar cursos en el navegador se desplegará la ventana de formulario y se podrá salir pulsando nuevamente
+Todos los contenidos del commit fueron creados de forma dinámica aunque no aún utilizando js sino solamente con las pseudoclases de html y css como lo son hover.
+
+para la fluidez de aparición del formulario utilizo curvas de bezier qué dan cambios de velocidad en la fluidez de la transición 
+
+
+
+
+
+###pendientes
+- ventana de contacto
+- ventana de inicio
+- agregar cursos
+- footer
