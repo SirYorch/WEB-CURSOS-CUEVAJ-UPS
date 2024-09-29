@@ -45,6 +45,7 @@ Además del contenido de pedido creé otra sección en la que se puede apreciar 
 Todos los contenidos del commit fueron creados de forma dinámica aunque no aún utilizando js sino solamente con las pseudoclases de html y css como lo son hover.
 
 para la fluidez de aparición del formulario utilizo curvas de bezier qué dan cambios de velocidad en la fluidez de la transición 
+Agregado del titulo Proyecto Completado
 
 ### pendientes
 
