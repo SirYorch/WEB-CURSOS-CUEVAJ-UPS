@@ -9,7 +9,7 @@ El contenido del repositorio de pràctica serà crear un ejemplo de pàgina web,
 ## HTML
 
 el contenido html sigue los estandares web de html:5 incluyendo las etiquetas necesariass para las configuraciones predeterminadas y motorees de busqueda meta viewport y meta charset. 
-
+además el uso de etiquetas strong al final que le darán importancia a las las palabras específicas en el footer
 
 
 
@@ -21,6 +21,7 @@ _ al inicio del documento se realiza un clear css con el selector global *
 _ para el header  se usan los selectores de etiquetas
 _ para el main se utilizan selectores de clases
 _ para el footer se utilizan selectores de Identificadores
+_ todos los contenidos extrasse encuentran entre lo escrito del area de cursos y el footer
 
 
 las pseudoclases se utilizan en el header para las selecciones de tipo hover
@@ -45,11 +46,6 @@ Todos los contenidos del commit fueron creados de forma dinámica aunque no aún
 
 para la fluidez de aparición del formulario utilizo curvas de bezier qué dan cambios de velocidad en la fluidez de la transición 
 
-
-
-
-
 ### pendientes
-- guardar datos de los cursos
-- cargar datos de los cursos
-- footer
+
+Terminado

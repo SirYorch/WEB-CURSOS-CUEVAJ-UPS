@@ -82,6 +82,15 @@ function agregarCursos(){
 
     // Renderizar la lista de cursos
     renderizarCursos();
+    limpiarCampos();
+}
+
+function limpiarCampos() {
+    document.getElementById('nombre').value = "";
+    document.getElementById('docente').value = "";
+    document.getElementById('fecha').value = "";
+    document.getElementById('duracion').value = "";
+    document.getElementById('descripcion').value = "";
 }
 
 function renderizarCursos() {
