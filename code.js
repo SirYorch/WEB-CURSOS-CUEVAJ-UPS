@@ -51,8 +51,6 @@ ver.forEach(boton => boton.addEventListener("click",function(){
     contenedor.classList.toggle("abierto");
 }))
 
-//agregado de cursos
-let listaCursos = JSON.parse(localStorage.getItem('listaCursos')) || [];
 
 //funcion para eliminar los cursos con su animacion
 borrar.forEach(boton => boton.addEventListener("click",function () {
@@ -63,10 +61,13 @@ borrar.forEach(boton => boton.addEventListener("click",function () {
     localStorage.setItem('listaCursos', JSON.stringify(listaCursos));
 }))
 
+//agregado de cursos
+let listaCursos = JSON.parse(localStorage.getItem('listaCursos')) || [];
+
+
 //funcionalidad de agregado de cursos
 function agregarCursos(){
     formulario.classList.remove("desplegar");
-    let cuadros = document.createDocumentFragment();
 
     const nombre = document.getElementById('nombre').value;
     const docente = document.getElementById('docente').value;
@@ -95,7 +96,7 @@ function limpiarCampos() {
 
 function renderizarCursos() {
     let cuadros = document.createDocumentFragment();
-    stage.innerHTML = ''; // Limpiar el contenido previo
+    stage.innerHTML = ''; // Limpiar el contenido anterior de la mesa
 
     for(let cur of listaCursos){
         let carta = document.createElement("section");
