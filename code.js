@@ -74,16 +74,21 @@ function agregarCursos(){
     const fecha = document.getElementById('fecha').value;
     const duracion = document.getElementById('duracion').value;
     const descripcion = document.getElementById('descripcion').value;
+
+    if(nombre.length  == 0 || docente.length == 0 || fecha.length == 0 ||duracion.length == 0 || descripcion.length == 0 ){
+        alert("Los campos no pueden encontrarse vacíos para poder enviar el formulario")
+    } else {
     
-    let curso = [nombre, docente, fecha, duracion, descripcion];
-    listaCursos.push(curso);
+        let curso = [nombre, docente, fecha, duracion, descripcion];
+        listaCursos.push(curso);
 
-    // Guardar la lista de cursos en localStorage
-    localStorage.setItem('listaCursos', JSON.stringify(listaCursos));
+        // Guardar la lista de cursos en localStorage
+        localStorage.setItem('listaCursos', JSON.stringify(listaCursos));
 
-    // Renderizar la lista de cursos
-    renderizarCursos();
-    limpiarCampos();
+        // Renderizar la lista de cursos
+        renderizarCursos();
+        limpiarCampos();
+    }
 }
 
 function limpiarCampos() {
